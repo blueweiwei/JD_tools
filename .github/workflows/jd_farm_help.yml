@@ -1,9 +1,9 @@
 name: jd_farm_help
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
   schedule:
     - cron: '23 0 * * * '
   watch:
