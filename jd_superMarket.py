@@ -333,8 +333,7 @@ def lottery(cookies):
 
 def pk(cookies):
     print("\n【PK有礼】")  # TODO
-    data = getTemplate(cookies, "smtg_getTeamPkDetailInfo", {})[
-        "data"]["result"]
+    data = getTemplate(cookies, "smtg_getTeamPkDetailInfo", {})["data"]["result"]
     print(f'joinStatus:{data["joinStatus"]}')
     print(f'pkStatus:{data["pkStatus"]}')
 
